@@ -1,5 +1,5 @@
 {
-    "name": "google/adwords",
+    "name": "colinmutter/adwords",
     "type": "library",
     "description": "AdWords PHP API Client",
     "keywords": ["adwords", "google"],
