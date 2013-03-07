@@ -1,9 +1,9 @@
 {
-    "name": "google/adwords",
+    "name": "fertandil87/adwords-php-client",
     "type": "library",
     "description": "AdWords PHP API Client",
     "keywords": ["adwords", "google"],
-    "homepage": "https://github.com/bparise/adwords-php-client",
+    "homepage": "https://github.com/fertandil87/adwords-php-client",
     "license": "Apache License 2.0",
     "authors": [
         {
