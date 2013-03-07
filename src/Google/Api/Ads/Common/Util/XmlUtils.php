@@ -28,7 +28,7 @@
  * @author     Eric Koleda <adwordsapi-support@google.com>
  * @author     Vincent Tsao <adwordsapi-support@google.com>
  */
-require_once 'Google/Api/Ads/Common/Util/MapUtils.php';
+require_once 'MapUtils.php';
 
 /**
  * A collection of utility methods for working with XML.

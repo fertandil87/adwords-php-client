@@ -23,8 +23,8 @@
  * @author     Eric Koleda <adwordsapi-support@google.com>
  * @author     Vincent Tsao <adwordsapi-support@google.com>
  */
-require_once 'Google/Api/Ads/Common/Util/CurlUtils.php';
-require_once 'Google/Api/Ads/Common/Util/OAuthHandler.php';
+require_once 'CurlUtils.php';
+require_once 'OAuthHandler.php';
 
 /**
  * An OAuth hanlder that uses the a popular OAuth implementation written by

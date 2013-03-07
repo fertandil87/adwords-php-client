@@ -27,7 +27,7 @@
  * @author     Eric Koleda <adwordsapi-support@google.com>
  * @author     Vincent Tsao <adwordsapi-support@google.com>
  */
-require_once 'Google/Api/Ads/Common/Util/UrlUtils.php';
+require_once 'UrlUtils.php';
 
 /**
  * An abstract class for Google OAuth flow.

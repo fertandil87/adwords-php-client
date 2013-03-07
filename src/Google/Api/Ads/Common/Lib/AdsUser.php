@@ -24,12 +24,12 @@
  * @author     Eric Koleda <adwordsapi-support@google.com>
  * @author     Vincent Tsao <adwordsapi-support@google.com>
  */
-require_once 'Google/Api/Ads/Common/Util/Logger.php';
-require_once 'Google/Api/Ads/Common/Util/PeclOAuthHandler.php';
-require_once 'Google/Api/Ads/Common/Util/AndySmithOAuthHandler.php';
-require_once 'Google/Api/Ads/Common/Util/SimpleOAuth2Handler.php';
-require_once 'Google/Api/Ads/Common/Lib/SoapClientFactory.php';
-require_once 'Google/Api/Ads/Common/Lib/ValidationException.php';
+require_once dirname(__FILE__) . '/../Util/Logger.php';
+require_once dirname(__FILE__) . '/../Util/PeclOAuthHandler.php';
+require_once dirname(__FILE__) . '/../Util/AndySmithOAuthHandler.php';
+require_once dirname(__FILE__) . '/../Util/SimpleOAuth2Handler.php';
+require_once 'SoapClientFactory.php';
+require_once 'ValidationException.php';
 
 /**
  * User class for all API modules using the Ads API.

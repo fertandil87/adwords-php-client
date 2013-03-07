@@ -30,11 +30,11 @@
  * @author     Eric Koleda <adwordsapi-support@google.com>
  * @author     Vincent Tsao <adwordsapi-support@google.com>
  */
-require_once 'Google/Api/Ads/Common/Lib/AdsUser.php';
-require_once 'Google/Api/Ads/Common/Util/Logger.php';
-require_once 'Google/Api/Ads/Common/Util/MapUtils.php';
-require_once 'Google/Api/Ads/Common/Util/SoapRequestXmlFixer.php';
-require_once 'Google/Api/Ads/Common/Util/XmlUtils.php';
+require_once 'AdsUser.php';
+require_once dirname(__FILE__) . '/../Util/Logger.php';
+require_once dirname(__FILE__) . '/../Util/MapUtils.php';
+require_once dirname(__FILE__) . '/../Util/SoapRequestXmlFixer.php';
+require_once dirname(__FILE__) . '/../Util/XmlUtils.php';
 
 /**
  * An extension of the {@link SoapClient} class intended to prepare

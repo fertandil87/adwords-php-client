@@ -28,7 +28,7 @@
  * @author     Vincent Tsao <adwordsapi-support@google.com>
  * @link       http://www.php.net/manual/en/book.oauth.php
  */
-require_once 'Google/Api/Ads/Common/Util/OAuthHandler.php';
+require_once 'OAuthHandler.php';
 
 /**
  * An OAuth handler that uses the OAuth PECL extension.

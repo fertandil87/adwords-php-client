@@ -24,8 +24,8 @@
  * @author     Eric Koleda <adwordsapi-support@google.com>
  * @author     Vincent Tsao <adwordsapi-support@google.com>
  */
-require_once 'Google/Api/Ads/Common/Util/AuthTokenException.php';
-require_once 'Google/Api/Ads/Common/Util/CurlUtils.php';
+require_once 'AuthTokenException.php';
+require_once 'CurlUtils.php';
 
 /**
  * Client used to retrieve authentication tokens from the Client Login API.
