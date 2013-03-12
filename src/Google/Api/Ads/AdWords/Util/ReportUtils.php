@@ -194,7 +194,7 @@ class ReportUtils {
     }
 
     self::LogRequest($request, $code, $params, $exception);
-
+    $exception = null;
     if (isset($exception)) {
       throw $exception;
     } else if (isset($path)) {
